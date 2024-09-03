@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="login-form">
+    <!-- placehorder input-text에 공백일때 쓰여있는 문장 -->
+   <!-- required는 반드시 채워져야 하는 입력필드. -->
+    <!-- input의 유효성검사를 하기 위해서는 form안에 있어야한다. -->
+   <input required maxlength="15" type="text" placeholder="what is your name?"/>
+    <input type="submit" value="Log in">
+</form>
+
+    
+
+    <form id="todo-form">
+        <input type="text" placeholder="Write a To Do and Press Enter" required/>
+    </form>
+    <ul id="todo-list">
+        
+    </ul>
+    <script src="app.js"></script>
+    <script src="todo.js"></script>
+</body>
+</html>
