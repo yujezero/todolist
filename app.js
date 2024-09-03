@@ -6,6 +6,6 @@ const loginInput = document.querySelector("#login-form input");
 function onLoginSubmin(event){
     event.preventDefault(); //브라우저의 기본동작을 막아줌.
     console.log(loginInput.value)
- 
+    console.log("hi")
 }
 loginform.addEventListener("submit",onLoginSubmin)
